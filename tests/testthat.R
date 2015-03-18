@@ -1,4 +1,4 @@
 library(testthat)
-library(gmdh)
+library(rGMDH)
 
-test_check("gmdh")
+test_check("rGMDH")

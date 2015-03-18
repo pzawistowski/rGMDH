@@ -3,7 +3,7 @@ test_that("training should fail in case of non-numeric data", {
   x <- rep("A", 100)
   y <- rep(1, 100)
   
-  expect_error(gmdh::train(x,y))
+  expect_error(rGMDH::train(x,y))
 })
 
 
@@ -13,7 +13,7 @@ test_that("training construct simple regression models", {
   y <- x[,1]*x[,2]
   
   set.seed(9020)
-  m <- gmdh::train(x,y)
+  m <- rGMDH::train(x,y)
   
   expect_less_than(mse(predict(m,x),y), 0.0001)
 })

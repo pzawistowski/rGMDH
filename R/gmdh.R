@@ -1,9 +1,9 @@
-#' gmdh: an implementation of the Group Method of Data Handling regression method
+#' rGMDH: an implementation of the Group Method of Data Handling regression method
 #'
 #' An implementation of the Group Method of Data Handling proposed by A.G. Ivakhnenko in 1966.  The package allows solving regression tasks by creating high degree polynomials thus only numerical attributes are allowed.
 #'
 #' @docType package
-#' @name gmdh
+#' @name rGMDH
 #' @import plyr
 NULL
 

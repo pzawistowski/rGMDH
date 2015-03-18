@@ -4,7 +4,7 @@
 \alias{train}
 \title{Trains a GMDH model which solves the y=f(x) regression task.}
 \usage{
-train(x, y, M = ncol(y), val.size = 0.25)
+train(x, y, M = ncol(x), val.size = 0.25)
 }
 \arguments{
 \item{x}{a matrix with independent (input) variables}
