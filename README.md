@@ -1,7 +1,7 @@
 # gmdh
 [![Travis-CI Build Status](https://travis-ci.org/dratewka/gmdh.png?branch=master)](https://travis-ci.org/dratewka/gmdh)
 
-An implementation of Group Method for Data Handling[1] written in R, inspired by [2]. The method can be used for solving regression tasks with numeric input and output variables by creating a high order polynomial.
+An [R](http://www.r-project.org/) implementation of Group Method of Data Handling [1] inspired by [2]. The method can be used for solving regression tasks with numeric input and output variables by creating a high order polynomial.
 
 ## Installation
 You can install the package directly from github using [devtools](https://github.com/hadley/devtools):
