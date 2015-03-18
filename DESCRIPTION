@@ -1,11 +1,11 @@
 Package: gmdh
 Type: Package
-Title: What the package does (short line)
+Title: An implementation of the Group Method of Data Handling regression method. 
 Version: 1.0
 Date: 2015-03-17
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Pawel Zawistowski
+Maintainer: <dratewka@gmail.com>
+Description: An implementation of the Group Method of Data Handling proposed by A.G. Ivakhnenko in 1960's.  The package allows solving regression tasks by creating high degree polynomials thus only numerical attributes are allowed.
+License: LGPL
 Suggests: testthat
-Imports: proto
+Imports: plyr
