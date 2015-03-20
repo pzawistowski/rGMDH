@@ -1,5 +1,5 @@
 # rGMDH
-[![Travis-CI Build Status](https://travis-ci.org/dratewka/gmdhR.png?branch=master)](https://travis-ci.org/dratewka/rGMDH)
+[![Travis-CI Build Status](https://travis-ci.org/dratewka/rGMDH.png?branch=master)](https://travis-ci.org/dratewka/rGMDH)
 
 An [R](http://www.r-project.org/) implementation of Group Method of Data Handling [1] inspired by [2]. The method can be used for solving regression tasks with numeric input and output variables by creating a high order polynomial.
 
